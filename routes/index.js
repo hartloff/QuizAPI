@@ -15,7 +15,11 @@ router.get('//listQuizzes', function (req, res, next) {
     var db = req.db;
     var collection = db.get('quizapi');
     collection.find({}, {"quiz_name": 1, "_id":0,"questions":0}, function (e, docs) {
-        res.send(docs);
+        var quizzes = [];
+        for(var i in docs){
+            quizzes.add(docs[i].quiz_name);
+        }
+        res.send(quizzes);
     });
 });
 
