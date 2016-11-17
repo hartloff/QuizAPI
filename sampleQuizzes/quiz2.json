@@ -1,0 +1,35 @@
+{
+  "quiz_name": "fake quiz",
+  "questions": [
+    {
+      "question": "The answer is c",
+      "answer": "c",
+      "choices": {
+        "a": "choice a",
+        "b": "choice b",
+        "c": "choice c",
+        "d": "choice d"
+      }
+    },
+    {
+      "question": "The answer is d",
+      "answer": "d",
+      "choices": {
+        "a": "choice a",
+        "b": "choice b",
+        "c": "choice c",
+        "d": "choice d"
+      }
+    },
+    {
+      "question": "The answer is a",
+      "answer": "a",
+      "choices": {
+        "a": "choice a",
+        "b": "choice b",
+        "c": "choice c",
+        "d": "choice d"
+      }
+    }
+  ]
+}

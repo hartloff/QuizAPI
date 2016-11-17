@@ -1,0 +1,35 @@
+{
+  "quiz_name": "CSE115",
+  "questions": [
+    {
+      "question": "What's a loop?",
+      "answer": "c",
+      "choices": {
+        "a": "A roller coaster thing",
+        "b": "Don't worry about it",
+        "c": "The best things ever",
+        "d": "Something made up to trick students"
+      }
+    },
+    {
+      "question": "What's that value of x after running the following code?\nint x = 5;\nx = x+3;",
+      "answer": "b",
+      "choices": {
+        "a": "5",
+        "b": "8",
+        "c": "x",
+        "d": "toothbrush"
+      }
+    },
+    {
+      "question": "What language have you been learning in CSE115",
+      "answer": "a",
+      "choices": {
+        "a": "Java",
+        "b": "JavaScript",
+        "c": "Python",
+        "d": "C++"
+      }
+    }
+  ]
+}
