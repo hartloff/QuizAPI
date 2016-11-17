@@ -14,7 +14,7 @@ router.get('/', function (req, res, next) {
 router.get('//listQuizzes', function (req, res, next) {
     var db = req.db;
     var collection = db.get('quizapi');
-    collection.find({}, {"quiz_name": 1}, function (e, docs) {
+    collection.find({}, {"quiz_name": 1, "_id":0,"questions":0}, function (e, docs) {
         res.send(docs);
     });
 });
